@@ -4,9 +4,9 @@ Homework 1: Decode 5 emails of ciphertext given the types of coding.
 
 Results: 
 
-I successfully decoded the ciphertext that used Hill 2x2 by brute-forcing the key.
+ciphers.py helped me to get the sum of the letter frequencies as well as the letter counts in each document to decide which text used which cipher. 
 
-I successfully decoded Vigenere through analytical means and guess and check.
+I successfully decoded the ciphertext that used Hill 2x2 by brute-forcing the key. This was done in ciphertext.py. 
 
 I came close to decoding the columnar transposition cipher as well as Vigenere.
 
