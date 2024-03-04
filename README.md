@@ -1,18 +1,10 @@
-This repo holds my continual work on assignments for a class in applied cryptography.
+Describe your efforts on this project. (How many hours spent, the story of wrong turns and/or breakthroughs, etc)
+What insights/breakthroughs did you come to that will stick with you in your future career?
+Are you proud of your efforts? Why or why not?
+What was your overall impression of the experience?
 
-Homework 1: Decode 5 emails of ciphertext given the types of coding.
+I think I spent around 25-30 ish hours on this project. This included watching videos, coding, and googling information about ciphers. 
+I mainly concentrated my efforts on the hill 2x2 cipher. My main goal was to get at least one of them, and I followed the guidance in class in doing the brute force ciphers first.
+I wasted a lot of time reading through the website, following the video lectures, and attempting the vigenere cipher instead of just looking online to see the best ways to go about attacking each text adn which ciphers would be the easiest to solve. I think if I did not initially do this, I could have easily gotten 4 of them, excluding playfair. I am proud of the work I did for the hill cipher. I am not proud that my code for the columnar substitution did not end up working. I went through a few iterations of code for it but I could not get past dealing with the leftover cells in the last row, even after consulting chatgpt (It did give me a really cool way of printing out text in grid format though). I know I was close, but I did not put enough time in to get it. I definitely think the coding exercises have helped me out in my career since I have started using python for scripting, and this has helped me become more comfortable with it. I know now that I need a plan before I jump in and start typing since that makes my code become very ugly and I get lost before I complete certain parts of the code. My overall impression of this was positive. I don't think that our time was wasted at first, but I was a bit lost and used a good chunk of time reading about these ciphers when I should have been playing around in an IDE. I also was attempting to decode the wrong text for awhile, which really infuriated me, but such is life.
 
-Results: 
-
-ciphers.py helped me to get the sum of the letter frequencies as well as the letter counts in each document to decide which text used which cipher. 
-
-I successfully decoded the ciphertext that used Hill 2x2 by brute-forcing the key. This was done in ciphertext.py. 
-
-I came close to decoding the columnar transposition cipher as well as Vigenere.
-
-I did not attempt the Playfair/Substitution ciphers as they involved more analytical ways of attacking the text rather than a code-based solution.
-
-In brief, I gained more experience in Python that I did not previously have and learned a bit more about how to attack problems in a more timely manner.
-
-In the next assignment, I hope to gain a bit more insight from my classmates who have experience in software development in terms of unit testing and other ways to
-make my attempts more organized.
+This was overall a good introduction to the subject. I think it could be set up in a way that more easily facilitates solving the ciphers, but that might defeat the purpose of discovery and having many failed attempts in the learning process. 
