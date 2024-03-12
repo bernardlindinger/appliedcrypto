@@ -1,11 +1,34 @@
 Write a suite of functions that allows you to encrypt and decrypt images using AES in any of the modes we studied.  Tweet out an encrypted image that someone else in class can decrypt.  Submit to me your code, an explanation of how I can use it, and a quick write-up:
 
 Describe your efforts on this project. (How many hours spent, the story of wrong turns and/or breakthroughs, etc)
+  I spent around 10 hours on this project. I spent most of that time creating the AES.py file. My hope was to make a GUI that would let you run any encryption/decryption on an image that you choose.
+  I ran into some issues with the data types that I was passing between functions and eventually decided to make a much shorter script that did the basics. The code I got working currently only does
+  ECB or CBC on images that do not need to be padded. I hardcoded the IV and have been using the same IV/key throughout testing to make things easier to remember.  
 What insights/breakthroughs did you come to that will stick with you in your future career?
+  I think the general ideas on how a certain mode can become weaker has been beneficial. The importance of not reusing certain parameters has been instilled from the lessons and 
+  the steps that were needed to encrypt/decrypt data were covered in a decent enough way.
 Are you proud of your efforts? Why or why not?
+  I am proud of how much I learned about interactive programs and that I was able to get something working in that sense. I am also proud of how fast I was able to get my other program up and running considering the 
+  time crunch I was in.
 What was your overall impression of the experience?
+  This experience was better than the last one since it taught us something tangible that is commonly used in real networks, albeit on a much simpler level. 
 Which of your modes is good enough for nation-state security?
+  I would not be comfortable with any of the modes that I got working against a nation-state. I would need to dedicate more time to this in order to feel that way. I understand that some modes are much better than others,
+  such as ECB being 'less secure' than CTR because of similar concurrent data, but I am not comfortable with any of the current ones I have in the program. If I nailed down all of them and had a better understanding, I      may feel more confident in saying so.
 
+How to use AESsolver.py:
+Save an image that does not need padding. Run the program and type in your filename and key. If you have an IV you want to use, it is hardcoded in, so you can change that if needed.
+Choose the mode and whether you want to encrypt/decrypt. After you are done, the encrypted image is encrypted.png. You can rerun it using the decrypt mode with encrypted.png and 
+decrypted.png will be your original image.
+
+How to use AES.py:
+Run the program and see how far I was able to get with it. Click exit to exit the program.
+
+
+
+
+
+misc notes:
 ENCRYPTING IMAGES
 
 1. import AES and Image
