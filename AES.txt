@@ -1,0 +1,28 @@
+Write a suite of functions that allows you to encrypt and decrypt images using AES in any of the modes we studied.  Tweet out an encrypted image that someone else in class can decrypt.  Submit to me your code, an explanation of how I can use it, and a quick write-up:
+
+Describe your efforts on this project. (How many hours spent, the story of wrong turns and/or breakthroughs, etc)
+What insights/breakthroughs did you come to that will stick with you in your future career?
+Are you proud of your efforts? Why or why not?
+What was your overall impression of the experience?
+Which of your modes is good enough for nation-state security?
+
+ENCRYPTING IMAGES
+
+1. import AES and Image
+2. import Image file using im = Image.open("imagefile.png")
+3. im.size shows the size of the image. This is needed for later.
+4. make random key and create new AES object for whatever mode you are using
+5. convert image to bytes, ie. im.tobytes() definitely use this to see if padding is needed. This is the raw data.
+6. encrypt the raw data using the object.
+7. Take the encrypted data and save it using im.frombytes()
+8. Save as a png.
+
+DECRYPTING IMAGES
+raw = im.frombytes("test.png")
+decrypt raw stuff
+make new image file and save
+
+
+
+
+
